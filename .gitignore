@@ -1,0 +1,41 @@
+# Ignore build and object files
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+*.obj
+*.pdb
+*.exe
+*.user
+*.userosscache
+
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+.vs/
+
+# Ignore dependency directories
+/dependencies/
+/vendor/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+
+# Ignore compiled binary executables
+*/bin/
+/*/build/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
+
+# other folders
+AICrypta.c4ffd92e/x64/Debug/
+x64/Debug/
+
